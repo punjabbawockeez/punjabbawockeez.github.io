@@ -6,7 +6,8 @@
 -->
 <html>
 	<head>
-		<title>PJW Members</title>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <title>PJW Members</title>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
@@ -45,109 +46,123 @@
 		<!-- Header Ends Here -->
 
 		<!-- Page -->
-        
-        	<div id="page">
-            	<div class="container">
-                	<div class="row">
+        <style>
+            .textOverImage
+            {
+                position:relative;
+                width:450px;
+                height:600px;
+                margin:32px;
+                background-size:100%;
+                background-position:center;
+                transition:0.5s;
+             }
+             .textOverImage:hover
+             {
+                background-size:110%;
+             }
+          
+             .textOverImage:after
+             {
+                position:absolute;
+                top:95%;
+                bottom:0;
+                left:0;
+                right:0;
+                white-space:pre-wrap;
+                overflow:hidden;
+                background-color:rgba(0,0,0,0.8);
+                color:#fff;
+                padding:0 8px;
+                content:attr(data-text);
+                transition:0.5s;
+             }
+          
+             .textOverImage:hover:after
+             {
+                position:absolute;
+                top:0;
+                padding:8px;
+                background-color:rgba(0,0,0,0.8);
+             }
+          
+             .textOverImage:first-line
+             {
+                color:#fff;
+                font-weight:bold;
+                font-size:1.5em;
+             }
+        </style>
+            <div id="page">
+                <div class="container">
+                    <div class="row">
                     
-                    	<div id="content" class="12u skel-cell-important">
-                        	<article>
-                            	<header>
-                                    <h2 class="main-title">Members</h2>
+                        <div id="content" class="12u skel-cell-important">
+                <article>
+                                <header>
+                                    <h2 class="main-title">Class of 2020</h2>
                                 </header>
                                 <ul class="style2">
-                                <li>
-                                <a href="#"><img src="images/Derek Headshot.JPG" style="width:450px;height:300px;"></a>
-                                <b><font size="5">Derek John</font></b>
-                                <p><font size="3"></font></p>
-								</li>
-								<li>
-								<a href="#"><img src="images/Parth Headshot.JPG" style="width:450px;height:300px;"></a>
-                            	<b><font size="5">Parth Shah</font></b>
-                            	<p><font size="3"></font></p>                            	
-                            	</li>
-                            	<li>
-                            	<a href="#"><img src="images/Shivam Headshot.JPG" style="width:450px;height:300px;"></a>	
-                                <b><font size="5">Shivam Patel</font></b>
-                                <p><font size="3"></font></p>                      
-                            	</li>
-                            	<li>
-                            	<a href="#"><img src="images/Rohan Headshot.JPG" style="width:450px;height:300px;"></a>	
-                            	<b><font size="5">Rohan Trivedi</font></b>
-                            	<p><font size="3"></font></p>
-                            	</li>
-                            	<li>
-                            	<a href="#"><img src="images/Yash Headshot.JPG" style="width:450px;height:300px;"></a>	
-                            	<b><font size="5">Yash Bora</font></b>
-                            	<p><font size="3"></font></p>
-                            	</li>
-                            	<li>
-                            	<a href="#"><img src="images/Jihad Headshot.JPG" style="width:450px;height:300px;"></a>	
-                            	<b><font size="5">Jihad Ahmed</font></b>
-                            	<p><font size="3"></font></p>
-                            	</li>
-                            	<li>
-                            	<a href="#"><img src="images/Gaurav Headshot.JPG" style="width:450px;height:300px;"></a>	
-                            	<b><font size="5">Gaurav Gomber</font></b>
-                            	<p><font size="3"></font></p>
-                            	</li>
+                                <li>   
+    <div class="container">
+    <div class="card-deck">
+        <div class="textOverImage"
+                                style= "background-image: url('images/ShabadA.jpeg');"
+                                data-text="Shabad Ahluwalia
+The universe is governed by a set of truths. Einstein’s theory of relativity, Newton’s laws of motion, Darwinian evolution. And the universal law that states if Shabad ever removes his shirt, it must stay off for at least a whole minute - that’s 60 mississippi's. While we would never question science, the Rule of Sha-body can become a significant inconvenience in the instance of a necessary quick-change during competitions. Shabad’s abs are a life-force in their own right, considered by the greatest minds throughout history as the eighth wonder of the world and the sole reason humans have harnessed geothermal energy. Shabad is truly a scientific anomaly. Despite his peak physical form, Shabad is down-to-earth, thoughtful, pensive, kind, and not simply intelligent in the net income calculating excel sheet prowess required of a finance major, but he possesses an emotional intelligence unparalleled by the vast major of his gender (this, of course, is not saying much). As if you needed us to tell you, Shabad is a very, very good boy.">
+        </div>
+        <span></span>
+        <div class="textOverImage"
+                                style= "background-image: url('images/RajanC.jpeg');"
+                                data-text="Rajan Cinclair
+Spicy Bio Coming Soon ;)">
+        </div>
+        <span></span>
+        <div class="textOverImage"
+                                style= "background-image: url('images/ParthS.jpeg');"
+                                data-text="Parth Shah
+Spicy Bio Coming Soon ;)">
+        </div>
+        <span></span>
+        <div class="textOverImage"
+                                style= "background-image: url('images/GauravG.jpeg');"
+                                data-text="Gaurav Gomber
+Spicy Bio Coming Soon ;)">
+        </div>
+        <span></span>
+        <div class="textOverImage"
+                                style= "background-image: url('images/PranayK.jpeg');"
+                                data-text="Pranay Kalagara
+Spicy Bio Coming Soon ;)">
+        </div>
+        <span></span>
+        <div class="textOverImage"
+                                style= "background-image: url('images/AronB.jpeg');"
+                                data-text="Aron Bachawat
+Spicy Bio Coming Soon ;)">
+        </div>
+        <span></span>
+        <div class="textOverImage"
+                                style= "background-image: url('images/AmanP.jpeg');"
+                                data-text="Aman Patel
+Spicy Bio Coming Soon ;)">
+        </div>
+        <span></span>
+        <div class="textOverImage"
+                                style= "background-image: url('images/MohitT.jpeg');"
+                                data-text="Mohit Talwalker
+Spicy Bio Coming Soon ;)">
+        </div>
+        <span></span>
+        <div class="textOverImage"
+                                style= "background-image: url('images/NamanS.jpeg');"
+                                data-text="Naman Sharma
+Spicy Bio Coming Soon ;)">
+        </div>
+    </div>
+</div>
+                                </li>
                             </article>
-
-                            <article>
-                                <ul class="style2">
-                                <li>
-                                <a href="#"><img src="images/Viren Headshot.JPG" style="width:450px;height:300px;"></a>
-                                <b><font size="5">Viren Joopeli</font></b>
-                                <p><font size="3"></font></p>
-								</li>
-								<li>
-								<a href="#"><img src="images/Shabad Headshot.JPG" style="width:450px;height:300px;"></a>
-                            	<b><font size="5">Shabad Ahluwalia</font></b>
-                            	</li>
-                            	<li>
-                            	<a href="#"><img src="images/Shane Headshot.JPG" style="width:450px;height:300px;"></a>	
-                                <b><font size="5">Shane Mathew</font></b>
-                            	</li>
-                            	<li>
-                            	<a href="#"><img src="images/Rajan Headshot.JPG" style="width:450px;height:300px;"></a>	
-                            	<b><font size="5">Rajan Cinclair</font></b>
-                            	<p><font size="3"></font></p>
-                            	</li>
-                            	<li>
-                            	<a href="#"><img src="images/Kunaal Headshot.JPG" style="width:450px;height:300px;"></a>	
-                            	<b><font size="5">Kunaal Kumar</font></b>
-                            	<p><font size="3"></font></p>
-                            	</li>
-                            	<li>
-                            	<a href="#"><img src="images/Mo Headshot.JPG" style="width:450px;height:300px;"></a>	
-                            	<b><font size="5">Mohammed Asif</font></b>
-                            	</li>
-                            	<li>
-                            	<a href="#"><img src="images/Neelay HEadshot.JPG" style="width:450px;height:300px;"></a>	
-                            	<b><font size="5">Neelay Bhaskar</font></b>
-                            	<p><font size="3"></font></p>
-								</li>
-								<li>
-								<a href="#"><img src="images/Mahin Headshot.JPG" style="width:450px;height:300px;"></a>	
-								<b><font size="5">Mahin Dewan</font></b>
-								<p><font size="3"></font></p>
-								</li>
-								<li>
-								<a href="#"><img src="images/Shazeem Headshot.JPG" style="width:450px;height:300px;"></a>	
-								<b><font size="5">Shazeem Kuchidwala</font></b>
-								<p><font size="3"></font></p>
-								</li>
-								<li>
-								<a href="#"><img src="images/Nik Headshot.JPG" style="width:450px;height:300px;"></a>	
-								<b><font size="5">Nikunj Patel</font></b>
-								<p><font size="3"></font></p>
-								</li>
-                            </article>
-                        
-                        </div>
-                    </div>
-                </div>
-            </div>
             
 		<!-- /Page -->
 
